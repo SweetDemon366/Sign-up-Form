@@ -1,3 +1,7 @@
+:root {
+    --color-green: #596D48;
+}
+
 @font-face {
     font-family: 'Norse';
     src: url(fonts/norse/Norsebold.otf);
@@ -48,4 +52,37 @@
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.img-src a {
+    color: white;
+}
+
+.message {
+    max-width: 56ch;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content {
+    margin-left: 50px;
+}
+
+.submit {
+    padding: 10px 50px;
+    background-color: var(--color-green);
+    border-radius: 12px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.log-in {
+    font-size: 18px;
+}
+
+.log-in a {
+    font-weight: 700;
+    color: var(--color-green);
 }
